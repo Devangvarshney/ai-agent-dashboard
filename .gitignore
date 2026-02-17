@@ -1,0 +1,73 @@
+# Python virtual env
+env/
+venv/
+
+# Node
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+# =========================
+# Python / Django
+# =========================
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django database
+db.sqlite3
+
+# Django migrations cache
+*.log
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Editor / OS files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / coverage
+# =========================
+coverage/
+htmlcov/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.swo

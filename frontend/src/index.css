@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.grid-bg {
+  background-image:
+    /* glow */
+    radial-gradient(
+      ellipse 70% 50% at 50% 0%,
+      rgba(120, 120, 255, 0.25),
+      transparent 70%
+    ),
+
+    /* horizontal lines */
+    linear-gradient(
+      rgba(255,255,255,0.08) 1px,
+      transparent 1px
+    ),
+
+    /* vertical lines */
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.08) 1px,
+      transparent 1px
+    );
+
+  background-size:
+    100% 100%,
+    40px 40px,
+    40px 40px;
+
+  mask-image: radial-gradient(
+    ellipse 70% 60% at 50% 0%,
+    black 60%,
+    transparent 100%
+  );
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("https://img.freepik.com/free-vector/blue-velvety-abstract-wavy-background-dark-background_134830-2226.jpg?semt=ais_user_personalization&w=740&q=80");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
