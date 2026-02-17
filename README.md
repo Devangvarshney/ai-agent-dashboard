@@ -1,3 +1,4 @@
+<img width="1875" height="1005" alt="image" src="https://github.com/user-attachments/assets/2b993f11-74fc-4e3c-947c-aac753a49d74" />
 # 🚀 AI Agent Dashboard
 
 A Full Stack AI Agent Management Dashboard built using **React.js** and **Django REST Framework**.
